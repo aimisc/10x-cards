@@ -1,0 +1,38 @@
+# 🔐 Pliki konfiguracyjne z sekretami
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.p12
+*.jks
+*.pfx
+*.credentials
+*.secret
+secrets.json
+config/secrets/*
+firebase-adminsdk.json
+
+# 🐍 Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env/
+
+# 🟩 Node.js
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# 💻 IDE / edytory
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# 🧪 Testy / buildy
+coverage/
+dist/
+build/
